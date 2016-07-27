@@ -1,12 +1,11 @@
 <table>
   <thead class="contact-list-table-head">
     <tr>
-      <th>ID</th>
       <th>Name</th>
-      <th>Email</th>
+      <th>Options</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody class="contacts-table">
     <% @contacts.each do |contact| %>
       <%= erb :'_contact', locals: { contact: contact } %> 
     <% end %>
