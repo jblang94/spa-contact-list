@@ -19,15 +19,18 @@ header {
 }
 
 .contact {
-  font-size: 0.75em;
+  font-size: 1em;
 }
 
 .contact:hover {
   background-color: #8bc9f3;
   color: white;
-  font-size: 1em;
   font-weight: bold;
 }
+
+/*.show {
+  margin-right: 0.5em;
+}*/
 
 
 /* .contact-list is the div that contains the list of all contacts */

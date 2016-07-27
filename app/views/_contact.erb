@@ -1,5 +1,7 @@
-<tr class="contact">
-  <td><%= contact.id %></td>
+<tr class="contact" data-id="<%= contact.id %>" data-name="<%= contact.name %>" data-email="<%= contact.email %>">
   <td><%= contact.name %></td>
-  <td><%= contact.email %></td>
+  <td>
+    <button class="button show">Show</button>
+    <a href="/contacts/<%= contact.id %>/delete"><button class="button delete">Delete</button></a>
+  </td>
 </tr>

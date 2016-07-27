@@ -15,6 +15,9 @@ post '/contacts' do
   else
     redirect '/'
   end
+end
 
-
+get '/contacts/:contact_id/delete' do
+  contact = Contact.find(params[:contact_id]);
+  contact.destroy!
 end

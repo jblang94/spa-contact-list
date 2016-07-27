@@ -1,12 +1,22 @@
 <div class="row contact-list-row">
-  <div class="small-8 column contact-list">
+
+  <div class="small-4 column contact-list">
+    <%= erb :'_all_contacts' %>
+  </div>
+
+  <div class="small-4 column">
     <div class="row">
-      <%= erb :'_all_contacts' %>
+      <%= erb :'_add_contact' %>
     </div>
+    <hr>
     <div class="row">
-      <div class="small-3 column">
-        <%= erb :'_add_contact' %>
+      <div class="show-contact">
       </div>
     </div>
   </div>
+
+  <div class="small-4 column">
+    
+  </div>
+
 </div>
