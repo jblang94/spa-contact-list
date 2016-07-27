@@ -1,0 +1,33 @@
+* {
+  font-family: 'Comfortaa', cursive;
+}
+
+header {
+  font-size: 4em;
+  text-align: center;
+}
+
+.contact-list-row {
+  margin-left: 1em;
+  margin-top: 2em;
+}
+
+.contact-list-table-head {
+  background-color: #1583CC;
+  color: white;
+  font-size: 2em;
+}
+
+.contact {
+  font-size: 0.75em;
+}
+
+.contact:hover {
+  background-color: #8bc9f3;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+
+/* .contact-list is the div that contains the list of all contacts */
