@@ -1,0 +1,14 @@
+<table>
+  <thead class="contact-list-table-head">
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @contacts.each do |contact| %>
+      <%= erb :'_contact', locals: { contact: contact } %> 
+    <% end %>
+  </tbody>
+</table>
